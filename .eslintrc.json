@@ -9,9 +9,15 @@
   ],
   "rules": {
     "react/prop-types": 0,
+<<<<<<< HEAD
     "jsx-a11y/label-has-for" : 0
+=======
+    "jsx-a11y/label-has-for": 0,
+    "no-console": 1
+>>>>>>> 9a53986d789b380085daeb5dc18d09afb340f452
   },
   "plugins": ["react", "import", "jsx-a11y"],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
